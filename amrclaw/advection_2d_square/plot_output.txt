@@ -1,0 +1,58 @@
+rm -f .plots
+python /Users/rjl/git/clawpack/visclaw/src/python/visclaw/plotclaw.py _output                     _plots                     setplot.py           
+Importing setplot.setplot from /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square.
+Executed setplot successfully
+Will plot 11 frames numbered: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Will make 1 figure(s) for each frame, numbered:  [0]
+
+-----------------------------------
+
+
+Creating html pages for figures...
+
+Directory '/Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_plots' 
+    already exists, files may be overwritten 
+Now making png files for all figures...
+    Reading  Frame 0 at t = 0  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 0 at time t = 0.0
+    Reading  Frame 1 at t = 0.2  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 1 at time t = 0.2
+    Reading  Frame 2 at t = 0.4  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 2 at time t = 0.4
+    Reading  Frame 3 at t = 0.6  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 3 at time t = 0.6
+    Reading  Frame 4 at t = 0.8  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 4 at time t = 0.8
+    Reading  Frame 5 at t = 1  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 5 at time t = 1.0
+    Reading  Frame 6 at t = 1.2  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 6 at time t = 1.2
+    Reading  Frame 7 at t = 1.4  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 7 at time t = 1.4
+    Reading  Frame 8 at t = 1.6  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 8 at time t = 1.6
+    Reading  Frame 9 at t = 1.8  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 9 at time t = 1.8
+    Reading  Frame 10 at t = 2  from outdir = /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output
+Frame 10 at time t = 2.0
+Reading gauge data from /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_output/fort.gauge
+In fort.gauge file, found gauge numbers [1]
+Read in gauges [1]
+Found data for Gauge 1 
+
+-----------------------------------
+
+Creating latex file...
+Directory '/Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_plots' 
+    already exists, files may be overwritten 
+
+Latex file created:  
+  /Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_plots/plots.tex
+
+Use pdflatex to create pdf file
+Created JSAnimation for figure 0
+
+--------------------------------------------------------
+
+Point your browser to:
+    file:///Users/rjl/git/clawpack/apps/notebooks/amrclaw/advection_2d_square/_plots/_PlotIndex.html
